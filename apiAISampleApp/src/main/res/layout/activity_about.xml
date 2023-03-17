@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="ai.api.sample.About">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:text="College ChatBot"
+        android:textSize="35dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="What is ChatBot?"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="-It is a conversational agent which interacts with user in natural language.
+-It is designed to mimic human interaction to create certain level of comfort level.
+-“Chatbot” is a natural language processing based application that will be answering all the college related queries put forth by the users.
+-Natural language processing is a science that refers to the use of computers to process and analyze natural language for any number of purposes.
+-NLP involves natural language understanding that is, enabling computers to derive meaning from human or natural language input, and produce the desired output.Taking into consideration for the presence of synonyms/keywords it will parse the user query and produce an appropriate answer for it."
+        />
+
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/aaa"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Objective"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="-Provide appropriate reply to student’s query.
+-Provide up-to-date information to the students.
+-Take necessary information from the students.
+-Extract authentic reviews from feedback data using web mining.
+-The system should have knowledge base which is acquired from web pages and constructed automatically without manual efforts.
+-The constructed knowledge-base can be queried with domain related queries and the system provides the most relevant details for the query.
+"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Objective"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="-Api.ai is a voice-enabling engine that allows the addition of voice interfaces to apps based on Android, iOS, HTML5, and Cordova to third party developers.
+-The SDK's contain features like voice recognition, natural language understanding, and text-to-speech. It also offers a web interface to build and test conversation scenarios.
+-The platform is based on a natural language processing engine which allows Internet of Things(IoT) developers to include natural language voice interfaces in their products.
+"       />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/structure"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Objective"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="-The proposed system generates assuring results and it reduces a great deal of human effort in the extraction of knowledge and providing the students correct information
+-Extracting authentic reviews from feedback data using web mining
+-Alternative to confusing user interface and websites by developing a language based question and answer simulation module
+-Hub for multiple applications with different purposes, to provide user with a centralized one stop solution."       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:text="Project Mentor:Mrs Pooja Shetty"
+        android:textSize="35dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Group Members:
+Ninad Marathe
+Rachit Kulkarni
+Nakul Pawar
+Charmi Valecha"
+        />
+
+</LinearLayout>
+    </ScrollView>
